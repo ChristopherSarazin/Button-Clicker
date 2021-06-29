@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1 id="sitename">Dojonary</h1>
+        <input id="searchbar" type="text" placeholder="Search">
+        <button onclick="changelogin()" id="login">Login</button>
+    </nav>
+
+    <div id="topdef">
+        <div id="topdefleft">
+            <h1 class="word">ninja</h1>
+            <p class="noun"><em>noun</em></p>
+            <p class="plural"><em>Plural: ninjas</em></p>
+            <button onclick="alert(liked)" id="likes">Likes</button>
+        </div>
+        <div id="topdefright">
+            <p>A practitoner skilled in the Japanese art of ninjutsu</p>
+        </div>
+    </div>
+    <div id="sidebox">
+        <p id="quote">Dojonary is defined by <strong>YOU</strong></p>
+        <button onclick="removebutton()" id="adddef">Add Definition</button>
+    </div>
+    <div id="bottomdef">
+        <div id="botdefleft">
+            <h1 class="word">ninja</h1>
+            <p class="noun"><em>noun</em></p>
+            <p class="plural"><em>Plural: ninjas</em></p>
+            <button onclick="alert(liked)" id="likes">Likes</button>
+        </div>
+        <div id="botdefright">
+            <p>A programmer who breaks down problems with zen-like focus</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar{
+    width: 80%;
+    height: 150px;
+    background-color: darkcyan;
+    margin: 10px 120px;
+    display: flex;
+}
+
+#sitename{
+    font-size: 85px;
+    margin: 0px 30px;
+    align-self: center;
+}
+
+#searchbar{
+    height: 30px;
+    width: 400px;
+    align-self: center;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+#navbar>button{
+    height: 30px;
+    width: 60px;
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    color: antiquewhite;
+    background-color: rgba(4, 4, 136, 0.938);
+}
+#topdef{
+    height: 270px;
+    width: 50%;
+    border: 2px solid black;
+    margin: 50px 120px;
+    display: flex
+}
+
+#bottomdef{
+    height: 270px;
+    width: 50%;
+    border: 2px solid black;
+    margin: 50px 120px;
+    display: flex;
+}
+
+#sidebox{
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    margin: -320px 180px;
+    float: right;
+}
+#topdefright{
+    height: 70%;
+    width: 305px;
+    align-self: center;
+    margin-left: 100px;
+}
+#topdefleft{
+    height: auto;
+    width: 30px auto;
+    align-self: center;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.noun{
+    text-align: center;
+}
+.word{
+    text-align: center;
+}
+.plural{
+    text-align: center;
+}
+
+#likes{
+    height: 30px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+#topdefright>p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+#botdefleft{
+    height: auto;
+    width: 30px auto;
+    align-self: center;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#botdefright{
+    height: 70%;
+    width: 305px;
+    align-self: center;
+    margin-left: 100px;
+}
+#botdefright>p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+#quote{
+    font-size: 35px;
+}
+#adddef{
+    background-color: rgb(13, 13, 138);
+    margin: 15px 40px;
+    width: 70%;
+    color: antiquewhite
+}
+button{
+    box-shadow: 20px;
+}
